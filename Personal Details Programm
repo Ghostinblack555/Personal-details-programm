@@ -1,0 +1,15 @@
+name =input("Enter Your Name: ")
+def get_password():
+    password =input("Enter your Pass: ")
+    return password
+password = get_password()
+year=int(input("Enter your Birth Year:"))
+print("\n")
+print("Printing Your Details")
+print("Hello " +name)
+print("Your Birth Year is:", year)
+if year%4==0 and year % 100!=0:
+    print("The Year is Leap Year")
+else:
+    print("This is Not Leap Year")
+print("your password is:", password)
